@@ -12,14 +12,13 @@ Struktur Folder
 ```
 
 search-engine-be-app/
-?
-??? data/
-?   ??? halodoc\articles\cleaned\stage1.csv
-?   ??? halodoc\articles\cleaned\stage2.csv
-?
-??? manage.py
-??? search\engine/          # Aplikasi Django kamu
-??? ...
+data/
+halodoc\articles\cleaned\stage1.csv
+ halodoc\articles\cleaned\stage2.csv
+ 
+manage.py
+search\engine/          # Aplikasi Django kamu
+...
 
 ````
 
@@ -28,7 +27,7 @@ Cara Menjalankan Proyek
 
 1. Clone Repository
 
-```bash
+
 git clone https://github.com/putrapkwl114117/Search-Engine-Mini-Be.git
 cd Search-Engine-Mini-Be
 ````
